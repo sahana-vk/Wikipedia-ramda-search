@@ -1,0 +1,19 @@
+{
+  "name": "wikipedia-search",
+  "version": "1.0.0",
+  "description": "Wikipedia Search",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.0.12",
+    "@types/ramda": "^0.27.40",
+    "parcel-bundler": "^1.12.5"
+  }
+}
